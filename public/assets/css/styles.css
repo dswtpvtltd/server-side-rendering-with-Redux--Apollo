@@ -1,0 +1,235 @@
+.Logo{
+    background-color: transparent;
+    padding: 8px;
+    height: 100%;
+}
+
+.Logo img{
+    height: 100%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .Logo{margin-right: 40px;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+
+/* main banner item*/
+.MainbannerItems{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.MainbannerItems a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.MainbannerItems .legend {
+    top: 10px !important;
+    left: 40px !important;
+    height: 60px !important;
+    color: #fff !important;
+    background: none !important;
+    display: inline-block;
+    font-size: 24px !important;
+    font-weight: bold;
+    opacity: 1 !important;
+    margin-left: 0 !important;
+    width: 300px !important;
+    text-align: left !important;
+}
+
+/* new block*/
+.News{
+    margin: 16px 0 0;
+    font-family: "Century Gothic";
+    display: inline-block;
+    width: 100%;
+    margin-left: -4px;
+    overflow: hidden;
+}
+
+.News .Title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.News .Description{
+    margin: 20px;
+    font-size: 18px;
+    display: block;
+    color: #434343;
+    text-align: center;
+}
+
+.News .NewsItems{
+    width: 98%;
+}
+
+.NewsContainer{
+    width: 100%;
+}
+
+.NewsContainer .container{
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.NewsItems{
+    margin: 0 0 0 8px !important;
+    position: relative;
+}
+
+.NewsItems h2{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 20px;
+    height: 59px;
+    text-transform: uppercase;
+}
+
+/** Box container*/
+
+.BoxContainer{
+    margin: 0 20px;
+    font-family: "Century Gothic";
+}
+
+.BoxContainer .Title{
+   text-align: center;
+}
+
+.BoxContainer .Boxcontent{
+    text-justify: center;
+    margin: 20px 0;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    color: #434343;
+    text-align: center;
+}
+
+/** home page four box*/
+.HomePageFourBox{
+    width: 100%;
+    height: auto;
+}
+
+.HomePageFourBox .Box{
+    width: 50%;
+    float: left;
+    position: relative;
+    max-height: 380px;
+}
+
+.HomePageFourBox .Box .imgbox{
+    width:100%;
+	display:inline-block;
+	position:absolute;
+	background:rgba(0, 0, 0, 0.1);
+	top:0;
+	left:0;
+	max-height:371px;
+	height:100%;
+	padding:8px 0;
+	-webkit-transition:all 0.55s linear;
+	-moz-transition:all 0.55s linear;
+	transition:all 0.55s linear
+}
+
+.HomePageFourBox .Box .imgbox:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 501px){
+    .HomePageFourBox .Box{
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+.HomePageFourBox .Box img {
+    width: 100%;
+}
+
+.HomePageFourBox .Box .post-inner {
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    padding: 10px 0px;
+    top: 25%;
+    margin: auto;
+}
+
+.HomePageFourBox .Box .post-inner .h2{
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    top: 125px;
+    margin: auto;
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.HomePageFourBox .Box .post-inner .btn-more {
+    background: rgba(109, 19, 29, 0.6);
+    border: 1px solid #bfbfbf;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 20px;
+    line-height: inherit;
+    width: 40%;
+    display: inline-block;
+    padding: 15px 12px;
+    white-space: nowrap;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    font-weight: bold;
+}
+
+.HomePageFourBox .Box .post-inner .btn-more:hover {
+	background-color:#c31e2f
+}
